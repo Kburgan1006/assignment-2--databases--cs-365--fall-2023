@@ -7,8 +7,8 @@ CREATE TABLE passwords (
     User_Name VARCHAR(20), NOT NULL
     Email_Address VARCHAR(320),
     Password_ VARCHAR(64), NOT NULL
-    COMMENT TEXT,
-    CREATION_TIME DATETIME
+    Comment TEXT,
+    Creation_Time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
     PRIMARY KEY(Passwords_Key)
 );
